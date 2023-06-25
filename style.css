@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: rgb(248, 198, 223);
+    border-radius: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+ 
+}
+
+.social-links li {
+    margin-right: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #333;
+    color: #fff;
+    
+}
+
+/* ... O código CSS anterior permanece o mesmo ... */
+
+.projects {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects li {
+    margin-bottom: 10px;
+}
+
+.projects h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.projects p {
+    font-size: 16px;
+    color: #666;
+}
